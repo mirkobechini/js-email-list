@@ -19,10 +19,9 @@ generateMail()
 
 
 refreshMailEl.addEventListener('click', ()=>{
-    return generateMail()
+    mailListEl.innerHTML = ""
+    generateMail()
 })
-
-
 
 
 
