@@ -10,10 +10,21 @@
 </head>
 
 <body>
-    <h1>E-mail list</h1>
+    <div class="container my-5">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                <span class="fw-bold">Email list</span>
+                <button class="btn btn-primary text-center rounded-pill mx-5" id="refreshMail"> Generate</button>
+            </div>
+            <ul class="list-group list-group-flush" id="mailList">
 
-    <ul class="list-unstyled" id="mailList">
-    </ul>
+            </ul>
+            
+
+        </div>
+    </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.11.0/axios.min.js"
         integrity="sha512-h9644v03pHqrIHThkvXhB2PJ8zf5E9IyVnrSfZg8Yj8k4RsO4zldcQc4Bi9iVLUCCsqNY0b4WXVV4UB+wbWENA=="
